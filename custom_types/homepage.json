@@ -54,7 +54,7 @@
       "fieldset": "Slice zone",
       "config": {
         "labels": {
-          "text_section": [
+          "text_slice": [
             {
               "name": "1col",
               "display": "1 Column"
