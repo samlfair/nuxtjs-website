@@ -1,7 +1,7 @@
 <template>
   <section>
     <!-- Slices block component -->
-    <slices-zone :uid="$route.params.uid" />
+    <slice-zone :uid="$route.params.uid" />
   </section>
 </template>
 
