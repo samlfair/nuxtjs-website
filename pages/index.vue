@@ -3,7 +3,7 @@
     <!-- Banner component -->
     <homepage-banner :banner="banner" />
     <!-- Slices block component -->
-    <slice-zone uid="homepage" queryType="single" />
+    <slice-zone uid="" type="homepage" queryType="single" />
   </section>
 </template>
 
