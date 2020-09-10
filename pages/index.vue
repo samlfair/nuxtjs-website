@@ -4,7 +4,7 @@
     <homepage-banner :banner="banner" />
     <!-- Slices block component -->
     <div class="container">
-      <slice-zone uid="uid" type="homepage" queryType="single" />
+      <slice-zone type="homepage" queryType="single" />
     </div>
   </section>
 </template>
