@@ -64,9 +64,9 @@ export default {
    ** Global CSS
    */
   css: [
+    "vue-essential-slices/src/styles/styles.scss",
     "@/assets/css/resetr.css",
-    "@/assets/css/common.css",
-    "vue-essential-slices/src/styles/styles.scss"
+    "@/assets/css/common.css"
   ],
 
   /*
@@ -85,7 +85,7 @@ export default {
     ["nuxt-sm"]
   ],
   prismic: {
-    endpoint: "https://your-repo-name.cdn.prismic.io/api/v2",
+    endpoint: "https://theme-test-3-49750294785.cdn.prismic.io/api/v2",
     linkResolver: "@/plugins/link-resolver",
     htmlSerializer: "@/plugins/html-serializer"
   },

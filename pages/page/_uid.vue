@@ -1,7 +1,9 @@
 <template>
   <section>
     <!-- Slices block component -->
-    <slice-zone :uid="$route.params.uid" />
+    <div class="container">
+      <slice-zone type="page" :uid="$route.params.uid" />
+    </div>
   </section>
 </template>
 
@@ -12,12 +14,12 @@ import SliceZone from "vue-slicezone";
 export default {
   name: "page",
   components: {
-    SliceZone,
+    SliceZone
   },
   head() {
     return {
-      title: "Prismic Nuxt.js Multi Page Website",
+      title: "Prismic Nuxt.js Multi Page Website"
     };
-  },
+  }
 };
 </script>

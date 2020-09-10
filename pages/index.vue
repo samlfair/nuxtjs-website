@@ -3,7 +3,9 @@
     <!-- Banner component -->
     <homepage-banner :banner="banner" />
     <!-- Slices block component -->
-    <slice-zone uid="uid" type="homepage" queryType="single" />
+    <div class="container">
+      <slice-zone uid="uid" type="homepage" queryType="single" />
+    </div>
   </section>
 </template>
 
@@ -17,11 +19,11 @@ export default {
   layout: "homepage",
   components: {
     HomepageBanner,
-    SliceZone,
+    SliceZone
   },
   head() {
     return {
-      title: "Prismic Nuxt.js Multi Page Website",
+      title: "Prismic Nuxt.js Multi Page Website"
     };
   },
   async asyncData({ $prismic, error }) {
@@ -32,6 +34,8 @@ export default {
     } catch (e) {
       error({ statusCode: 404, message: "Page not found" });
     }
-  },
+  }
 };
 </script>
+
+<style></style>
