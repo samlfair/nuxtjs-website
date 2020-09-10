@@ -85,7 +85,6 @@ export default {
     ["nuxt-sm"]
   ],
   prismic: {
-    // endpoint: "https://theme-test-3-49750294785.cdn.prismic.io/api/v2",
     endpoint: "https://your-repo-name.cdn.prismic.io/api/v2",
     linkResolver: "@/plugins/link-resolver",
     htmlSerializer: "@/plugins/html-serializer"
