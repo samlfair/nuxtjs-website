@@ -1,5 +1,5 @@
 export default {
-  mode: "universal",
+  target: "static",
 
   /*
    ** Headers of the page
@@ -77,13 +77,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [
-    // mofules for full static before `nuxt export` (coming in v2.12)
-    "@/modules/static",
-    "@/modules/crawler", // https://prismic-nuxt.js.org/
-    "@nuxtjs/prismic",
-    ["nuxt-sm"]
-  ],
+  modules: [["@nuxtjs/prismic"], ["nuxt-sm"]],
   prismic: {
     endpoint: "https://your-repo-name.cdn.prismic.io/api/v2",
     linkResolver: "@/plugins/link-resolver",
