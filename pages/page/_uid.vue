@@ -1,6 +1,6 @@
 <template>
   <section>
-    <!-- Slices block component -->
+    <!-- SliceZone component -->
     <div class="container">
       <slice-zone type="page" :uid="$route.params.uid" />
     </div>

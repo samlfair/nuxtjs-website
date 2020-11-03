@@ -2,7 +2,7 @@
   <section>
     <!-- Banner component -->
     <homepage-banner :banner="banner" />
-    <!-- Slices block component -->
+    <!-- SliceZone -->
     <div class="container">
       <slice-zone type="homepage" queryType="single" />
     </div>
